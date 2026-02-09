@@ -28,7 +28,7 @@ if (contactForm) {
         const message = document.getElementById('message').value;
 
         const whatsappNumber = '595962325570';
-        const text = `Hola Lic. Karina, soy ${name}.%0A%0AMi correo es: ${email}%0A%0AConsulta: ${message}`;
+        const text = `Hola Lic. Lourdes Karina, soy ${name}.%0A%0AMi correo es: ${email}%0A%0AConsulta: ${message}`;
 
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${text}`;
 
